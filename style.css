@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 79%);
+}
+
+nav{
+    display: flex;
+    height: 45px;
+    background-color: hsl(43, 5%, 30%);
+}
+.logo{
+    font-size: 30px;
+    margin: 8px;
+    color: aqua;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    color: rgb(255, 255, 255); 
+    margin: 0px 25px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+li:hover{
+    background-color: black;
+}
+.searchbar{
+    margin: 8px;
+    height:19px;
+    width: 340px;
+    border-radius: 5px;
+    padding: 2px 25px;
+}
+.searchbutton{
+    height:30px;
+    width: 55px;
+    margin: 8px;
+    border-radius: 8px;
+}
+main{
+    background-color: hsl(43, 5%, 30%);
+    height: 50%;
+}
+main .about{
+    
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.about ,h1, h2, h3, p{
+    margin:25px;
+    font-size: 30px;
+    color: #ffd714;
+    font-style: italic;
+}
+
+.about h1{
+    color: aqua;
+    font-size: 50px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+}
+
+.cources{
+    display: flex;
+}
+.course{
+    background-color: cadetblue;
+    margin: 0px 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.course img{
+    height: 150px;
+    width: 150px;
+    margin: 10px 50px;
+    border-radius: 15px;
+}
+.cources,.course,h2{
+    color: black;
+    font-style: normal;
+}
+
+.contactform{
+    background-color: #54b1a4;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #6f8c93;
+    color: black;
+    width: 50%;
+    height: 400px;
+    margin: 26px 270px;
+    border-radius: 25px;
+}
+form input, textarea{
+    margin: 5px;
+    padding: 4px;
+}
+form h3{
+    color: black;  
+    font-style: normal;  
+}
+.btn{
+    margin: 0px 250px;
+}
+
+footer{
+    background-color: hsl(43, 5%, 30%);
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
